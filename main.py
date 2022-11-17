@@ -23,6 +23,6 @@ if __name__ == '__main__':
     if answer == 1:
         bogosort(randomlist(size))
     elif answer == 2:
-        merge_sort(size)
+        merge_sort(randomlist(size))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
