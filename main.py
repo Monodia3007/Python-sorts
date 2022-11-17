@@ -21,8 +21,8 @@ if __name__ == '__main__':
     print("Quelle taille de liste voulez vous ?")
     size = int(input("Taille : "))
     if answer == 1:
-        bogosort(randomlist(size))
+        print(bogosort(randomlist(size)))
     elif answer == 2:
-        merge_sort(randomlist(size))
+        print(merge_sort(randomlist(size)))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

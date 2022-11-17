@@ -10,7 +10,6 @@ def bogosort(data: list) -> list:
     """ Shuffle data until sorted. """
     while not is_sorted(data):
         shuffle(data)
-        print(data)
     return data
 
 
